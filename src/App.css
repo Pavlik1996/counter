@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(42, 44, 54);
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper2 {
+    display: flex;
+    margin: 260px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.enter {
+    color: rgb(97, 209, 247);
+    font-size: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.red {
+    color: red;
+    font-size: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.setStyle {
+    color: rgb(97, 209, 247);
+    font-size: 35px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.borderOne {
+    border-radius: 10px;
+    justify-content: center;
+    border: 2px solid rgb(97, 209, 247);
+    width: 490px;
+    height: 300px;
+    padding: 10px;
+    margin: 50px;
+    color: rgb(97, 209, 247);
+}
+
+.borderTwo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 209, 247);
+    height: 150px;
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 35px;
+}
+
+.borderButton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 209, 247);
+    height: 77px;
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 100px;
+    font-size: 50px;
+    background-color: rgb(97, 209, 247);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(42, 44, 54);
+}
+
+.button:active {
+    background-color: rgb(42, 44, 54);
+    color: rgb(97, 209, 247);
+}
+
+.button:disabled {
+    opacity: 0.3;
+}
+.button:disabled:active {
+    background-color: rgb(97, 209, 247);
+    color: rgb(42, 44, 54);
+
+}
+
+
+
+.buttonRes {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 55px;
+     width: 137px;
+     font-size: 50px;
+     background-color: rgb(97, 209, 247);
+     border: none;
+     border-radius: 10px;
+     font-weight: bold;
+    color: rgb(42, 44, 54);
+ }
+
+.buttonRes:active {
+    background-color: rgb(42, 44, 54);
+    color: rgb(97, 209, 247);
+}
+
+.buttonRes:disabled {
+    opacity: 0.3;
+}
+.buttonRes:disabled:active {
+    background-color: rgb(97, 209, 247);
+    color: rgb(42, 44, 54);
+
 }
